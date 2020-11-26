@@ -1,0 +1,38 @@
+
+<style>
+
+  .BlogItem-pagination-link-content {
+  	
+    display: none !important;
+  
+  }
+  
+  .BlogItem-title {
+    padding-top: 2em;
+  	color: #2a3439 !important;
+    text-transform: none !important;
+    font-family: Montserrat-Medium !important;
+	letter-spacing: .25em;
+    width: 80vw;
+  }
+  
+  article {
+  	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw !important;
+  }
+  
+  @media (max-width: 1000px) {
+          article {
+			width: 75vw !important;
+          }
+    	}
+  
+  @media (max-width: 800px) {
+          article {
+			width: 95vw !important;
+          }
+    	}
+  
+</style>

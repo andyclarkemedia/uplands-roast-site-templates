@@ -1,0 +1,38 @@
+<script>
+  
+   	setTimeout(function() {
+
+      
+      var images=document.querySelectorAll('img');
+  	 	const blogPostImageArray = [];
+       
+      images.forEach(function(item){ 
+        
+        if(item.className == "") { 
+        	let src = item.getAttribute("data-src");
+          blogPostImageArray.push(src)
+        }
+        
+      
+      })
+      
+      
+      
+      var containers = document.querySelectorAll('.BlogList-item');
+      
+      let counter = 0;
+      
+      containers.forEach(function(item) { 
+        
+        
+        item.style.backgroundImage = "url(" + blogPostImageArray[counter] + ")";
+        
+        counter ++;
+      
+      })
+
+        , 1000});
+   
+</script>
+
+<span onload="time()"></span>

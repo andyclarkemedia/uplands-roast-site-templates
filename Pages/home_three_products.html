@@ -1,0 +1,552 @@
+
+  <style>
+      
+        .custom-product-shop-link {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          cursor: pointer;
+        }
+
+      .custom-home-product-title {
+        padding: .5em;
+        text-align: center;
+      }
+      
+      .custom-home-product-container {
+          display: flex;
+        width: 100vw !important;
+          flex-direction: column;
+        align-items: center;
+      }
+
+    .custom-product-tiles-container {
+          padding-top: 2em;
+  height: auto;
+  width: 90vw;
+  display: flex;
+    flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+    padding-bottom: 5em;
+
+}
+
+.horizon-background-color {
+  background-color: #62805f;
+}
+
+.tradition-background-color {
+  background-color: #bf3f3f;
+}
+
+.pioneer-background-color {
+  background-color: #7e487c;
+}
+
+.custom-product-tile {
+  max-height: 35em;
+    height: 70vh;
+  width: 27.5%;
+  box-shadow: 4px 4px 12px grey;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.custom-tile-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5%;
+}
+
+.custom-packaging-picture {
+  background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa56ee1619e4d51ec895037/1604677349857/packaging-mockup.jpg");
+  width: 100%;
+  height: 60%;
+  background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.custom-pricing-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20%;
+}
+
+.custom-pricing-bubble {
+  border-radius: 3em;
+  margin-right: 5%;
+  margin-top: 7.5% !important;
+  height: 4.5em;
+  width: 4.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.custom-pricing-text {
+  color: #eae7dc;
+  font-family: Montserrat-Regular;
+
+}
+
+.custom-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+.custom-taste-and-roast-container {
+  display: flex;
+  width: 90%;
+  justify-self: center;
+  border-top: grey solid 1px;
+}
+
+.custom-taste-title {
+  font-family: Montserrat-Medium;
+  letter-spacing: .05em;
+}
+
+.custom-taste-container, .custom-roast-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 90%;
+  
+}
+
+
+.custom-roast-container {
+  border-left: grey solid 1px;
+}
+
+.custom-short-description {
+  font-family: Montserrat-Regular;
+  letter-spacing: .05em;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    font-size: .8em !important;
+}
+
+.custom-taste-and-roast-container {
+  display: flex;
+  height: 60%;
+}
+
+.custom-taste-text {
+  font-family: Montserrat-Thin;
+  font-size: .85em;
+    color: black;
+}
+
+.custom-tile-header-text {
+  font-size: 2em;
+  color: #eae7dc;
+  font-family: Montserrat-Regular;
+  letter-spacing: .15em;
+}
+
+.custom-see-in-shop-button {
+  width: 100%;
+  border: none;
+  height: 7.5%;
+  outline: none;
+  color: #eae7dc;
+  font-size: 1.25em;
+  letter-spacing: .1em;
+  cursor: pointer;
+  font-family: Montserrat-Regular;
+}
+
+.custom-roast-icon {
+  height: 1em;
+  padding: 0 .25em;
+}
+      
+      /* PRODUCT IMAGES*/
+      
+      .pioneer-background-image {
+        background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fad3bd44aff1f2f85dee5ca/1605188569260/pioneer_product_image.png')
+      }
+      
+      
+      .horizon-background-image {
+        background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fad3dfa0e8bbf646fe872d9/1605189120349/horizon_product_image.png')
+      }
+      
+      
+      .tradition-background-image {
+        background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fad3e149d560157703f858a/1605189145707/tradition_product_image.png')
+      }
+      
+      
+      .custom-from-text {
+    font-size: .75em;
+    line-height: .0em;
+  }
+      
+      /* MEDIA QUERIES */
+
+    @media (max-width: 1400px) {
+          
+          .custom-short-description {
+            font-size: .85em;
+          }
+
+
+          .custom-shoppage-product-line-of-three-container {
+            width: 100vw;
+          }
+
+          .custom-taste-text {
+            font-size: .75em;
+      }
+
+        
+
+      }
+
+    @media (max-width: 1200px) {
+          
+          .custom-shoppage-menu-container {
+            width: 80%; 
+        }
+
+        .custom-product-tile {
+          max-height: 32.5em;
+          width: 30%;
+        }
+
+        .custom-long-description {
+          font-size: .85em;
+        }
+
+      }
+
+
+      @media (max-width: 1000px) {
+          
+
+        .custom-product-tile {
+          margin: 2em 2em !important;
+          width: 40%;
+        }
+
+      }
+
+
+
+      @media (max-width: 850px) {
+          
+        .custom-product-tile {
+          height: 30em;
+          width: 60%;
+        }
+     
+      }
+
+
+      @media (max-width: 650px) {
+
+        .custom-roast-icon {
+          height: .75em;
+        }
+
+          .custom-tile-header-text-smaller {
+            font-size: 1.25em;
+          width: 90%;
+          }
+          
+          .custom-pricing-bubble {
+          height: 3em;
+          width: 3em;
+        }
+
+        .custom-pricing-text {
+          font-size: .75em
+        }
+
+        .custom-short-description {
+          font-size: .75em;
+        }
+
+        .custom-taste-title, .custom-roast-title {
+          font-size: .85em;
+        }
+
+        .custom-taste-text {
+          font-size: .65em;
+        }
+
+        .custom-product-tile {
+          
+          width: 70%;
+        }
+
+      }
+
+
+      @media (max-width: 500px) {
+
+        .custom-see-in-shop-button {
+          font-size: 1em;
+        }
+
+        .custom-product-tile {
+          
+          width: 80%;
+        }
+
+        .custom-tile-header-text {
+          font-size: 1.75em;
+        }
+
+        .custom-long-description {
+          font-size: .75em;
+        }
+
+      }
+
+
+      @media (max-width: 450px) {
+          
+            .custom-taste-text {
+               
+                font-size: .6em;
+                
+            }
+
+        .custom-product-tile {
+                max-height: 25em !important;
+          height: 60vh;
+          width: 90% !important;
+        }
+          
+          
+          .custom-short-description {
+          font-size: .6em !important;
+        }
+
+      }
+  </style>
+  
+  <div class="custom-home-product-container">
+      
+
+  <div class="custom-product-tiles-container">
+
+
+    <!-- Pioneer -->
+
+    <div class="custom-product-tile">
+      <a class='custom-product-shop-link' href="/shop/pioneer">
+      <div class="pioneer-background-color custom-tile-header-container">
+        
+        <p class="custom-tile-header-text">Pioneer</p>
+
+      </div>
+
+      <div class="custom-packaging-picture pioneer-background-image">
+        
+        <div class="custom-pricing-wrapper">
+          
+          <div class="pioneer-background-color custom-pricing-bubble">
+
+            <p class="custom-pricing-text"><span class='custom-from-text'> from </span>£9.00</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="custom-details-container">
+        
+        <p class="custom-short-description">The Original Vietnamese Speciality Coffee</p>
+
+        <div class="custom-taste-and-roast-container">
+
+          <div class="custom-taste-container">
+            
+            <p class="custom-taste-title">Taste</p>
+            <p class="custom-taste-text">Sweet and Fruity</p>
+
+          </div>
+
+          <div class="custom-roast-container">
+            
+            <p class="custom-taste-title">Roast</p>
+            
+            <div class="custom-roast-image-container">
+
+              <img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+
+              <img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5650261787238ca4969fe/1604674818618/roast-grey.png"/>
+
+              <img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5650261787238ca4969fe/1604674818618/roast-grey.png"/>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <button class="pioneer-background-color custom-see-in-shop-button">
+        More Info
+      </button>
+          </a>
+    </div>
+
+
+    <!-- Horizon -->
+
+    <div class="custom-product-tile">
+      <a class='custom-product-shop-link' href="/shop/horizon">
+      <div class="horizon-background-color custom-tile-header-container">
+        
+        <p class="custom-tile-header-text">Horizon</p>
+
+      </div>
+
+      <div class="custom-packaging-picture horizon-background-image">
+        
+        <div class="custom-pricing-wrapper">
+          
+          <div class="horizon-background-color custom-pricing-bubble">
+
+            <p class="custom-pricing-text"><span class='custom-from-text'> from </span>£8.50</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="custom-details-container">
+        
+        <p class="custom-short-description">A New Vietnamese Speciality Coffee</p>
+
+        <div class="custom-taste-and-roast-container">
+
+          <div class="custom-taste-container">
+            
+            <p class="custom-taste-title">Taste</p>
+            <p class="custom-taste-text">Almond and Caramel</p>
+
+          </div>
+
+          <div class="custom-roast-container">
+            
+            <p class="custom-taste-title">Roast</p>
+            
+            <div class="custom-roast-image-container">
+
+              <img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+
+              <img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+
+              <img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5650261787238ca4969fe/1604674818618/roast-grey.png"/>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <button class="horizon-background-color custom-see-in-shop-button">
+        More Info
+      </button>
+          </a>
+    </div>
+
+
+
+    <!-- Tradition -->
+
+    <div class="custom-product-tile">
+      <a class='custom-product-shop-link' href="/shop/tradition">
+      <div class="tradition-background-color custom-tile-header-container">
+        
+        <p class="custom-tile-header-text">Tradition</p>
+
+      </div>
+
+      <div class="custom-packaging-picture tradition-background-image">
+        
+        <div class="custom-pricing-wrapper">
+          
+          <div class="tradition-background-color custom-pricing-bubble">
+
+            <p class="custom-pricing-text"><span class='custom-from-text'> from </span>£7.00</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="custom-details-container">
+        
+        <p class="custom-short-description">The Classic Vietnamese Robusta Coffee</p>
+
+        <div class="custom-taste-and-roast-container">
+
+          <div class="custom-taste-container">
+            
+            <p class="custom-taste-title">Taste</p>
+            <p class="custom-taste-text">Chocolate and Treacle</p>
+
+          </div>
+
+          <div class="custom-roast-container">
+            
+            <p class="custom-taste-title">Roast</p>
+            
+            <div class="custom-roast-image-container">
+
+              <img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+
+              <img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+
+              <img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <button class="tradition-background-color custom-see-in-shop-button">
+        More Info
+      </button>
+          </a>
+    </div>
+
+
+
+
+
+
+  </div>
+      
+</div>

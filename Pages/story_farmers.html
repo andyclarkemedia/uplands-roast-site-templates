@@ -1,0 +1,386 @@
+<style type="text/css">
+		
+		
+		
+		.custom-story-page-farm-wrapper {
+          	padding: 4em 0;
+			font-family: Montserrat-Regular;
+			letter-spacing: .1em;
+			font-size: 2em;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			width: 100vw;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		.custom-story-page-farm-tiles-wrapper {
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			width: 90%;
+		}
+
+
+		.horizon-background-color {
+			background-color: #62805f;
+		}
+
+		.tradition-background-color {
+			background-color: #bf3f3f;
+		}
+
+		.pioneer-background-color {
+			background-color: #7e487c;
+		}
+
+  
+  .custom-farm-tile-link {
+  	display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+		.custom-farm-product-tile {
+			max-height: 35em;
+          	height: 70vh;
+			width: 27.5%;
+			box-shadow: 4px 4px 12px grey;
+			
+			display: flex;
+			font-size: .5em;
+			flex-direction: column;
+			text-align: center;
+			justify-content: space-between;
+		}
+
+		.custom-tile-header-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 12.5%;
+		}
+
+		.custom-son-farm-background {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fabddbc0a0e6b0bb44930b5/1605098960983/son_farm.png");
+		}
+  
+  .custom-story-page-farm-title {
+  	font-size: 1.75em;
+  }
+
+		.custom-dang-farm-background {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fabea308703fd2eaa25dcd7/1605102135897/dang_farm.png");
+		}
+
+		.custom-duc-farm-background {
+			background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fabeb5b9623ef510bb2758e/1605102440633/duc_farm.png');
+		}
+
+		.custom-story-farm-picture {
+			width: 100%;
+			height: 50%;
+			background-position: center; /* Center the image */
+		  	background-repeat: no-repeat; /* Do not repeat the image */
+		  	background-size: cover; /* Resize the background image to cover the entire container */
+		}
+
+
+		.custom-details-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 20%;
+		}
+
+
+		.custom-story-farm-read-more-link {
+			display: inline-block;
+		}
+
+		.custom-short-description {
+			font-family: Montserrat-Regular;
+			letter-spacing: .05em;
+			text-align: left;
+			width: 85%;
+			font-size: .725em;
+			line-height: 1.5em;
+		}
+
+
+		.custom-story-farm-tile-header-text {
+			font-size: 1.75em;
+			color: #eae7dc;
+			font-family: Montserrat-Regular;
+			letter-spacing: .15em;
+		} 
+
+		.custom-story-farm-home-text, .custom-story-farm-bean-text {
+			font-size: .5em;
+			opacity: .7;
+		}
+
+
+		.custom-story-farm-product-text {
+			font-size: 1.25em;
+			padding: .25em 0;
+		}
+
+		.custom-story-farm-product-button {
+			width: 100%;
+          	display:flex;
+          	flex-direction: column;
+          	justify-content: space-around;
+          	align-items:center;
+			border: none;
+			height: 17.5%;
+			outline: none;
+			color: #eae7dc;
+			font-size: 1.25em;
+			letter-spacing: .1em;
+			cursor: pointer;
+			font-family: Montserrat-Regular;
+		}
+
+        
+	
+		@media (max-width: 1300px) {
+          
+
+	    	.custom-farm-product-tile {
+	    		width: 30%;
+	    	}
+
+
+	    	.custom-story-farm-tile-header-text {
+	    		font-size: 1.5em;
+ 			}
+
+    	}
+
+
+    	@media (max-width: 1050px) {
+          
+
+	    	.custom-farm-product-tile {
+	    		width: 40%;
+	    		margin-bottom: 4em;
+	    	}
+
+
+	    	.custom-story-farm-tile-header-text {
+	    		font-size: 1.5em;
+ 			}
+
+
+ 			.custom-story-page-farm-title {
+ 				font-size: 1.75em;
+ 			}
+
+    	}
+
+
+    	@media (max-width: 900px) {
+          
+
+	    	.custom-farm-product-tile {
+	    		width: 55%;
+	    		margin-bottom: 4em;
+	    	}
+
+
+	    	.custom-story-farm-tile-header-text {
+	    		font-size: 1.5em;
+ 			}
+
+    	}
+
+
+    	@media (max-width: 750px) {
+          
+
+	    	.custom-farm-product-tile {
+	    		height: 32.5em;
+	    	}
+
+
+	    	.custom-short-description {
+	    		font-size: .65em;
+			}
+    	}
+
+
+		@media (max-width: 600px) {
+          
+
+	    	.custom-farm-product-tile {
+	    		width: 70%;
+	    	}
+
+
+	    	.custom-story-farm-tile-header-text {
+	    		font-size: 1.25em;
+	    	}
+
+
+	    	.custom-story-page-farm-title {
+ 				font-size: 1.5em;
+ 			}
+    	}
+
+
+    	@media (max-width: 500px) {
+          
+
+	    	.custom-farm-product-tile {
+	    		width: 80%;
+	    	}
+
+	    	.custom-story-farm-home-text, .custom-story-farm-bean-text {
+	    		font-size: .4em;
+	    	}
+
+
+	    	.custom-story-farm-product-text {
+	    		font-size: 1em;
+	    	}
+
+
+	    	.custom-story-page-farm-title {
+ 				font-size: 1.25em;
+ 			}
+
+
+	    	
+    	}
+
+
+    	@media (max-width: 400px) {
+          
+
+	    	.custom-farm-product-tile {
+	    		width: 90%;
+	    	}
+	    	
+    	}
+	</style>
+
+	<div class="custom-story-page-farm-wrapper">
+		
+		
+
+		<div class="custom-story-page-farm-tiles-wrapper">
+
+			<!-- Son Pacamara Tile -->
+
+			<div class="custom-farm-product-tile">
+				
+				<div class="pioneer-background-color custom-tile-header-container">
+					
+					<p class="custom-story-farm-tile-header-text">Sơn Nguyễn Văn</p>
+
+				</div>
+
+				<div class="custom-story-farm-picture custom-son-farm-background">
+					
+
+				</div>
+
+				<div class="custom-details-container"><a class="custom-farm-tile-link" href="/the-uplands-roast-journal/2020/11/18/meet-son-nguyen-van-the-farmer-who-helped-us-find-our-path">
+					
+					<p class="custom-short-description">Son Ngyuen Van (Son Pacamara) is renowned for being the most forward-thinking coffee producer in Vietnam. As one of the first Vietnamese farmers  ... Read More</p>
+
+                  </a></div>
+
+				<a class="pioneer-background-color custom-story-farm-product-button" href="/shop/pioneer">
+
+					<p class="custom-story-farm-home-text">Grows the</p>
+
+					<p class="custom-story-farm-product-text">Pioneer</p>
+
+					<p class="custom-story-farm-bean-text">Coffee Bean</p>
+					
+				</a>
+              
+		</div>
+
+
+			<!-- Farmer B Tile -->
+
+			<div class="custom-farm-product-tile">
+				
+				<div class="horizon-background-color  custom-tile-header-container">
+					
+					<p class="custom-story-farm-tile-header-text">Trung Đức</p>
+
+				</div>
+
+				<div class="custom-story-farm-picture custom-duc-farm-background">
+					
+
+				</div>
+
+				<div class="custom-details-container">
+					<a class="custom-farm-tile-link" href="/the-uplands-roast-journal/2020/11/19/meet-duc-a-young-business-man-promoting-education-quality-and-prosperity-for-vietnamese-coffee">	<p class="custom-short-description">Duc runs a small company which processes and distributes coffee in Vietnam -  Uplands Roast are their first customer outside of Vietnam ... Read More</p></a>
+
+				</div>
+
+				<a class="horizon-background-color  custom-story-farm-product-button" href="/shop/horizon">
+
+					<p class="custom-story-farm-home-text">Grows the</p>
+
+					<p class="custom-story-farm-product-text">Horizon</p>
+
+					<p class="custom-story-farm-bean-text">Coffee Bean</p>
+					
+				</a>
+
+			</div>
+
+
+			<!-- Farmer C Tile -->
+
+			<div class="custom-farm-product-tile">
+				
+				<div class="tradition-background-color custom-tile-header-container">
+					
+					<p class="custom-story-farm-tile-header-text">Nguyễn Đặng</p>
+
+				</div>
+
+				<div class="custom-story-farm-picture custom-dang-farm-background">
+					
+
+				</div>
+
+				<div class="custom-details-container">
+					<a class="custom-farm-tile-link" href="/the-uplands-roast-journal/2020/11/21/meet-dang-a-familiar-face-breaking-boundaries-in-vietnams-emerging-speciality-coffee-scene">
+					<p class="custom-short-description">Meeting Dang for the first time in Da Lat, his passion and drive was immediately noticeable as was the way in which he operated basic equipment with immense precision ... Read More</p></a>
+
+				</div>
+
+				<a class="tradition-background-color custom-story-farm-product-button" href="/shop/tradition">
+
+					<p class="custom-story-farm-home-text">Grows the</p>
+
+					<p class="custom-story-farm-product-text">Tradition</p>
+
+					<p class="custom-story-farm-bean-text">Coffee Bean</p>
+					
+				</a>
+
+			</div>
+
+
+
+
+
+
+		</div>
+
+		
+
+	</div>

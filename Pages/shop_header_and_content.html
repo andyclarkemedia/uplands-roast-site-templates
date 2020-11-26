@@ -1,0 +1,1436 @@
+<!--Shop page Header Banner -->
+
+
+<style type="text/css">
+		
+  #block-yui_3_17_2_1_1605522888372_4387, .Intro-content {
+  	padding-top: 0 !important;
+  }
+  
+  		main {
+            display: none !important;
+        }
+
+		.custom-shoppage-banner-flex-container {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fb52b55603ae31220babda1/1605708630002/mountains_three.jpeg");
+			width: 100vw;
+			height: 35em;
+			background-position: center; /* Center the image */
+		  	background-repeat: no-repeat; /* Do not repeat the image */
+		  	background-size: cover; /* Resize the background image to cover the entire container */
+		  	display: flex;
+		  	align-items: center;
+		  	justify-content: center;
+          	background-color: #f4f3ed;
+          	background-blend-mode: multiply;
+		}
+
+		.custom-shop-flex-centred-container {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+		}
+
+		.custom-shop-header-content-container {
+			display: block;
+			text-align: center;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.custom-shop-title {
+			color: #eae7dc;
+            text-shadow: 4px 4px 12px #2a3439;
+            font-family: 'Pecita-Heading';
+            letter-spacing: .1em;
+            font-size: 6em;
+            line-height: 1.25em;
+            font-feature-settings: "calt" on, "liga" on, "rlig" on;
+            -webkit-font-feature-settings: "calt" on, "liga" on, "rlig" on;
+			letter-spacing: .1em;
+          	line-height: 1em;
+			margin-top: 2em !important;
+          	text-shadow: 4px 4px 12px #2a3439;
+		}
+
+		.custom-shoppage-subtitle {
+			color: #eae7dc;
+			font-family: Montserrat-Thin;
+			letter-spacing: .1em;
+			font-size: 1.25em;
+          	line-height: 1.5em;
+          	text-shadow: 3px 3px 10px #2a3439;
+		}
+
+		.custom-white-line-divider-shoppage-header {
+			height: 2px;
+			width: 20vw;
+			margin: 3em 0 !important;
+			background-color: #eae7dc;
+		}
+
+
+		.custom-shop-discover-button {
+			margin: 4em 0 !important;
+          	background-color: #62805f !important;
+		}
+
+		.custom-shop-banner-step-container {
+			padding: 3em 0;
+			display: flex;
+			justify-content: space-around;
+
+		}
+
+
+		.custom-shop-inner-step-container {
+			display: flex;
+			justify-content: space-between;
+			padding: 10em;
+			
+
+		}
+
+
+		.custom-shop-individual-step {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			width: 15%;
+			
+		}
+
+
+		.custom-first-step-background {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa68d442057b138b43233a6/1604750661198/first_step.png");
+			background-color: #7e487c;
+		}
+
+		.custom-second-step-background {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa690e9a423301bc2f03183/1604751595011/second_step.png");
+			background-color: #638160;
+		}
+
+		.custom-third-step-background {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa693138a3e5f407454c78c/1604752148828/third_step.png");
+			background-color: #dd3632;
+		}
+
+
+		.custom-shop-step-circle {
+			opacity: .8;
+			width: 7em;
+			height: 7em;
+			border-radius: 5em;
+			background-position: center; /* Center the image */
+		  	background-repeat: no-repeat; /* Do not repeat the image */
+		  	background-size: contain; /* Resize the background image to cover the entire container */
+		  	display: flex;
+		  	align-items: center;
+		}
+
+
+
+		.custom-shop-step-title {
+			color: #eae7dc;
+			font-family: Montserrat-Regular;
+			letter-spacing: .1em;
+			font-size: 1em;
+			margin-top: .5em;
+		}
+
+	
+  
+  		/* MEDIA QUERIES */
+
+		@media (max-width: 1200px) {
+          
+	        .custom-shop-title {
+	        	font-size: 4.5em;
+	        	margin-left: 1em !important;
+	        	margin-right: 1em !important;
+              	line-height: 1.25em;
+	        }
+
+    	}
+
+
+    	@media (max-width: 1000px) {
+          
+	        .custom-white-line-divider-shoppage-header {
+	        	height: 1px;
+			    width: 40vw;
+			    margin: 1.5em 0 !important;
+	        }
+
+
+	        .custom-shoppage-subtitle {
+	        	padding-left: 2em !important;
+	        	padding-right: 2em !important;
+              	font-size: 1em;
+	        }
+          
+          .custom-shop-step-title {
+            font-size: .75em;
+          }
+
+    	}
+  		
+  .custom-product-shop-button-link {
+  	display: flex;
+    height: 100%;
+    width: 100%;
+    align-items:center;
+  }
+  
+  		@media (max-width: 650px) {
+          
+          .custom-shop-banner-step-container {
+          	padding: 1.5em;
+          }
+          
+          .custom-shop-individual-step {
+          	width: 33% !important;
+          }
+          	
+  			.custom-shop-title {
+	        	font-size: 3.5em;
+          }
+          
+          .custom-shop-step-title {
+            font-size: .65em;
+          }
+          
+          .custom-shop-step-circle {
+          	width: 5em;
+            height: 5em
+          }
+  		}
+  
+  
+  	@media (max-width: 400px) {
+      
+      .custom-shoppage-banner-flex-container {
+      	height: 27.5em !important
+      }
+      	
+      	.custom-shop-title {
+	        	font-size: 3em;
+         }
+      
+      	.custom-shop-step-circle {
+          	width: 3em;
+            height: 3em
+          }
+      	
+      		.custom-shoppage-subtitle {
+	        	padding-left: 1em !important;
+	        	padding-right: 1em !important;
+              	font-size: .75em;
+	        }	
+      	
+  		.custom-shop-step-title {
+            font-size: .5em;
+          }
+  	}
+
+
+
+	</style>
+
+
+	<div class="custom-shoppage-banner-flex-container">
+
+		<div class="custom-shop-header-content-container">
+
+			<p class="custom-shop-title">Cee a Kt</p>
+
+
+			<div class="custom-shop-flex-centred-container">
+
+				<div class="custom-white-line-divider-shoppage-header"></div>
+
+			</div>
+
+			<p class="custom-shoppage-subtitle">Our Unique Direct-Trade Vietnamese Speciality Coffees + Essential Gear</p>
+
+			
+			<div class="custom-shop-flex-centred-container">
+				
+              <button class="custom-button custom-shop-discover-button"><a class="custom-product-shop-button-link" href="/shop/coffee-subscription">Coffee Subscription</a></button>
+
+			</div>
+			
+
+		</div>
+
+	</div>
+
+<!--Shop page Content  -->
+
+
+
+
+
+
+
+
+<style type="text/css">
+	
+
+
+.custom-shoppage-content-wrapper {
+  	padding-top: 5em;
+	height: auto;
+    width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+
+.custom-shoppage-menu-container {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 4em;
+	margin: 2em 0 !important;
+
+
+}
+
+.custom-shoppage-menu-item {
+	color: #b3b3b3;
+	font-family: Montserrat-Thin;
+	letter-spacing: .1em;
+	font-size: 1em;
+	line-height: 3em;
+	cursor: pointer;
+}
+
+
+.custom-shoppage-menu-item-selected {
+	color: #2a3439;
+}
+
+
+
+.custom-shoppage-number-of-items-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 4em 0 !important; 
+	padding: 0 5em;
+	border-top: 1px solid #b3b3b3;
+}
+
+.custom-shoppage-number-of-items-text {
+	color: #b3b3b3;
+	font-family: Montserrat-Medium;
+	letter-spacing: .1em;
+	font-size: 1.25em;
+	margin-bottom: .5em !important;
+	cursor: pointer;
+}
+
+
+
+
+/*PRODUCT TILES*/
+
+
+
+.custom-shoppage-product-line-of-three-container {
+	height: auto;
+	width: 90vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+
+}
+
+.horizon-background-color {
+	background-color: #62805f;
+}
+
+.tradition-background-color {
+	background-color: #bf3f3f;
+}
+
+.pioneer-background-color {
+	background-color: #7e487c;
+}
+ 
+.standard-background-color {
+	background-color: #2a3439;
+}
+
+.custom-product-tile {
+	max-height: 35em;
+  	height: 70vh;
+	width: 27.5%;
+	box-shadow: 4px 4px 12px grey;
+	margin: 2em 0 !important;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.custom-tile-header-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 12.5%;
+}
+
+.custom-packaging-picture {
+	background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa56ee1619e4d51ec895037/1604677349857/packaging-mockup.jpg");
+	width: 100%;
+	height: 60%;
+	background-position: top; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.custom-pricing-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 20%;
+}
+
+.custom-pricing-bubble {
+	border-radius: 3em;
+	margin-right: 5%;
+	margin-top: 7.5% !important;
+	height: 4.5em;
+	width: 4.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.custom-pricing-text {
+	color: #eae7dc;
+	font-family: Montserrat-Regular;
+
+}
+
+.custom-details-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 20%;
+  	background-color: #fff;
+}
+
+
+.custom-text-details-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 20%;
+  	background-color: #fff;
+}
+
+.custom-taste-and-roast-container {
+	display: flex;
+	width: 90%;
+	justify-self: center;
+	border-top: grey solid 1px;
+}
+
+.custom-taste-title {
+	font-family: Montserrat-Medium;
+	letter-spacing: .05em;
+}
+
+.custom-taste-container, .custom-roast-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+	height: 90%;
+	
+}
+
+
+.custom-roast-container {
+	border-left: grey solid 1px;
+}
+
+.custom-short-description {
+	font-family: Montserrat-Regular;
+	letter-spacing: .05em;
+	height: 40%;
+	display: flex;
+  	width: 90%;
+	justify-content: center;
+	align-items: center;
+  font-size: .8em;
+}
+
+
+.custom-long-description {
+	font-family: Montserrat-Thin;
+	letter-spacing: .05em;
+	width: 85%;
+	text-align: left;
+	line-height: 1.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: .9em;
+    color: black;
+}
+
+.custom-taste-and-roast-container {
+	display: flex;
+	height: 60%;
+}
+
+.custom-taste-text {
+	font-family: Montserrat-Thin;
+	font-size: .8em;
+  	color: black;
+}
+
+.custom-tile-header-text {
+	font-size: 2em;
+	color: #eae7dc;
+	font-family: Montserrat-Regular;
+	letter-spacing: .15em;
+  	line-height: 1.25em;
+}
+
+.custom-tile-header-text-smaller {
+	font-size: 1.5em;
+	color: #eae7dc;
+	font-family: Montserrat-Regular;
+	letter-spacing: .15em;
+  	line-height: 1.25em;
+  	margin: 0 .5em !important;
+}
+
+.custom-see-in-shop-button {
+	width: 100%;
+	border: none;
+	height: 7.5%;
+	outline: none;
+	color: #eae7dc;
+	font-size: 1.25em;
+	letter-spacing: .1em;
+	cursor: pointer;
+	font-family: Montserrat-Regular;
+}
+
+.custom-roast-icon {
+	height: 1em;
+	padding: 0 .25em;
+}
+  .custom-product-shop-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  /* PRODUCT IMAGE BACKGROUNDS */
+  
+  .pioneer-background-image {
+  background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fad3bd44aff1f2f85dee5ca/1605188569260/pioneer_product_image.png");
+  }
+  
+    .horizon-background-image {
+  background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fad3dfa0e8bbf646fe872d9/1605189120349/horizon_product_image.png");
+  }
+  
+   .tradition-background-image {
+  background-image: url(" https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fad3e149d560157703f858a/1605189145707/tradition_product_image.png");
+  }
+  
+  .subscription-background-image {
+  	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbb70d83a91a317f3a2d832/1606119656758/AllThree.jpg');
+    background-position: bottom;
+  }
+  
+  .custom-twelve-background {
+  	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbe673108845d09245abaff/1606313787253/box-empty.jpg');
+    background-position: bottom;
+  }
+  
+  .custom-record-background {
+  	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbe3db4e6d49a06bb5d040e/1606303166487/Record.jpg');
+  }
+  
+  .custom-tshirt-background {
+  	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbe810c3c02f22b9de2c4e9/1606320402849/green-t.jpg');
+    background-position: right;
+  }
+  
+  .custom-tshirt-black-background {
+  	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbe807ecb3e0f577123d5f8/1606320259509/black-t.jpg');
+    background-position: right;
+  }
+  
+  .custom-phin-background {
+  	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbe45e61972c46e3c6b877e/1606305257912/phin.jpg');
+    background-position: bottom;
+  }
+  
+  .custom-christmas-background {
+  	
+  background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbe496fa97599144ec49166/1606306168541/christmas_pack.jpg');
+    background-position: bottom;
+    
+  }
+  
+  .custom-selection-background {
+  	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbe4d654f98375720adac25/1606307179962/selection-box.jpg');
+    background-position: right;
+  }
+  
+  .custom-slipmat-background {
+  	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbe4e80e18c5c478ec91cf3/1606307470810/slip_mat.jpg');
+    background-position: left;
+  }
+  
+  .custom-subscription-background {
+  	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbe4fdbe6d49a06bb5ee267/1606307814144/subscription.jpg');
+    background-position: bottom;
+  }
+  
+  .custom-giftcard-background {
+  	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbe53559d793648405c8cc6/1606308702814/gift-card.jpg');
+  }
+  
+  .custom-from-text {
+  	font-size: .75em;
+    line-height: .0em;
+    margin: 0 .5em;
+  }
+ 
+  
+  /* MEDIA QUERIES */
+
+		@media (max-width: 1400px) {
+          
+	        .custom-short-description {
+	        	font-size: .85em;
+	        }
+
+
+	        .custom-shoppage-product-line-of-three-container {
+	        	width: 100vw;
+	        }
+
+	        .custom-taste-text {
+	        	font-size: .75em;
+			}
+
+	    	
+
+    	}
+
+		@media (max-width: 1200px) {
+          
+	        .custom-shoppage-menu-container {
+	        	width: 80%; 
+	    	}
+
+	    	.custom-product-tile {
+	    		max-height: 32.5em;
+   				width: 30%;
+	    	}
+
+	    	.custom-long-description {
+	    		font-size: .85em;
+	    	}
+
+    	}
+
+
+    	@media (max-width: 1000px) {
+          
+
+	    	.custom-product-tile {
+	    		margin: 2em 2em !important;
+   				width: 40%;
+	    	}
+
+    	}
+
+
+    	@media (max-width: 900px) {
+
+    		
+          
+	        .custom-shoppage-menu-item {
+
+	        	font-size: .80em;
+
+	        }
+
+
+	        .custom-shoppage-menu-container {
+	        	padding: 0 1em !important;
+	    	}
+
+
+	    	.custom-post-title, .custom-post-category {
+	    		font-size: 1em;
+	    	}
+
+    	}
+
+
+    	@media (max-width: 850px) {
+          
+    		.custom-product-tile {
+	    		height: 30em;
+   				width: 60%;
+	    	}
+	   
+    	}
+
+
+    	@media (max-width: 650px) {
+
+    		.custom-roast-icon {
+    			height: .75em;
+    		}
+
+    		.custom-shoppage-menu-item {
+
+	        	padding: .75em;
+
+	        }
+
+	        .custom-tile-header-text-smaller {
+	        	font-size: 1.25em;
+    			width: 90%;
+	        }
+          
+	        .custom-shoppage-menu-container {
+	        	width: 85%; 
+	        	justify-content: center;
+	        	flex-wrap: wrap;
+	    	}
+
+	    	.custom-pricing-bubble {
+	    		height: 3.5em;
+    			width: 3.5em;
+	    	}
+
+	    	.custom-pricing-text {
+	    		font-size: .75em
+	    	}
+
+	    	.custom-short-description {
+	    		font-size: .75em;
+	    	}
+
+	    	.custom-taste-title, .custom-roast-title {
+	    		font-size: .85em;
+	    	}
+
+	    	.custom-taste-text {
+	    		font-size: .65em;
+	    	}
+
+	    	.custom-product-tile {
+	    		
+   				width: 70%;
+	    	}
+
+    	}
+
+
+    	@media (max-width: 500px) {
+
+    		.custom-see-in-shop-button {
+    			font-size: 1em;
+    		}
+
+    		.custom-product-tile {
+	    		
+   				width: 80%;
+	    	}
+          
+          	.custom-short-description {
+	    		font-size: .65em;
+	    	}
+
+	    	.custom-tile-header-text {
+	    		font-size: 1.75em;
+	    	}
+
+	    	.custom-long-description {
+	    		font-size: .75em;
+	    	}
+
+    	}
+
+
+    	@media (max-width: 450px) {
+
+    		.custom-product-tile {
+              	max-height: 25em !important;
+	    		height: 60vh;
+   				width: 90% !important;
+	    	}
+          
+          .custom-taste-text {
+               
+                font-size: .6em;
+                
+            }
+          
+          
+          .custom-short-description {
+	    		font-size: .6em !important;
+	    	}
+
+    	}
+
+
+	</style>
+
+	<div class="custom-shoppage-content-wrapper">
+		
+
+
+
+		<!-- #1 Line of three -->
+
+		<div class="custom-shoppage-product-line-of-three-container">
+			
+
+			<!-- Pioneer -->
+
+		<div class="custom-product-tile"><a class="custom-product-shop-link" href="/shop/pioneer">
+			
+			<div class="pioneer-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text">Pioneer</p>
+
+			</div>
+
+			<div class="custom-packaging-picture pioneer-background-image">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="pioneer-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text"><span class="custom-from-text"> from </span> £9.50</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-details-container">
+				
+				<p class="custom-short-description">The Original Vietnamese Speciality Coffee</p>
+
+				<div class="custom-taste-and-roast-container">
+
+					<div class="custom-taste-container">
+						
+						<p class="custom-taste-title">Taste</p>
+						<p class="custom-taste-text">Sweet and Fruity</p>
+
+					</div>
+
+					<div class="custom-roast-container">
+						
+						<p class="custom-taste-title">Roast</p>
+						
+						<div class="custom-roast-image-container">
+
+							<img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+
+							<img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5650261787238ca4969fe/1604674818618/roast-grey.png"/>
+
+							<img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5650261787238ca4969fe/1604674818618/roast-grey.png"/>
+							
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<button class="pioneer-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+			</a>
+          </div>
+
+
+		<!-- Horizon -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/horizon">
+			<div class="horizon-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text">Horizon</p>
+
+			</div>
+
+			<div class="custom-packaging-picture horizon-background-image">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="horizon-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text"><span class="custom-from-text">from </span>£8.50</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-details-container">
+				
+				<p class="custom-short-description">A New Vietnamese Speciality Coffee</p>
+
+				<div class="custom-taste-and-roast-container">
+
+					<div class="custom-taste-container">
+						
+						<p class="custom-taste-title">Taste</p>
+						<p class="custom-taste-text">Almond and Caramel</p>
+
+					</div>
+
+					<div class="custom-roast-container">
+						
+						<p class="custom-taste-title">Roast</p>
+						
+						<div class="custom-roast-image-container">
+
+							<img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+
+							<img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+
+							<img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5650261787238ca4969fe/1604674818618/roast-grey.png"/>
+							
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<button class="horizon-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+
+
+
+		<!-- Tradition -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/tradition">
+			<div class="tradition-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text">Tradition</p>
+
+			</div>
+
+			<div class="custom-packaging-picture tradition-background-image">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="tradition-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text"><span class="custom-from-text">from </span>£7.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-details-container">
+				
+				<p class="custom-short-description">The Classic Vietnamese Robusta Coffee</p>
+
+				<div class="custom-taste-and-roast-container">
+
+					<div class="custom-taste-container">
+						
+						<p class="custom-taste-title">Taste</p>
+						<p class="custom-taste-text">Chocolate and Treacle</p>
+
+					</div>
+
+					<div class="custom-roast-container">
+						
+						<p class="custom-taste-title">Roast</p>
+						
+						<div class="custom-roast-image-container">
+
+							<img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+
+							<img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+
+							<img class="custom-roast-icon" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa5646eeee72e2c79adc231/1604674670620/roast-black.png"/>
+							
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<button class="tradition-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+
+
+
+
+
+		
+
+
+		<!-- #2 Line of three -->
+
+		
+			
+
+			<!-- Christmas Gift Pack -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/vietnamese-coffee-kit">
+			<div class="standard-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text-smaller">Vietnamese Coffee Kit</p>
+
+			</div>
+
+			<div class="custom-packaging-picture custom-christmas-background">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="standard-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text">£20.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-text-details-container">
+				
+				<p class="custom-long-description">The full kit required to brew your own coffee in the classic Vietnamese style.</p>
+
+
+			</div>
+
+			<button class="standard-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+          
+          
+          		<!-- Selection Box -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/record">
+			<div class="standard-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text-smaller">'Signs' Dubplate</p>
+
+			</div>
+
+			<div class="custom-packaging-picture custom-record-background">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="standard-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text">£25.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-text-details-container">
+				
+				<p class="custom-long-description">Limited edition 7" dubplate. Featuring an exclusive remix of the classic dub track 'Signs' with a Scottish traditional influence.</p>
+
+
+			</div>
+
+			<button class="standard-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+          
+           <!-- Selection Box -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/selection-box">
+			<div class="standard-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text-smaller">Selection Pack</p>
+
+			</div>
+
+			<div class="custom-packaging-picture custom-selection-background">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="standard-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text">£25.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-text-details-container">
+				
+				<p class="custom-long-description">Enjoy our full range of coffees with the Uplands Roast comprehensive Vietnamese coffee pack.</p>
+
+
+			</div>
+
+			<button class="standard-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+          
+          
+          
+		<!-- #4 Line of three -->
+
+		<!-- Black T Shirt -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/uplands-roast-t-shirt-black">
+			<div class="standard-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text-smaller">Black T-Shirt</p>
+
+			</div>
+
+			<div class="custom-packaging-picture custom-tshirt-black-background">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="standard-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text">£20.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-text-details-container">
+				
+				<p class="custom-long-description">Our new T-shirts from Vietnam featuring a classic Uplands Roast illustration.</p>
+
+
+			</div>
+
+			<button class="standard-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+          
+          <!-- Green T Shirt -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/uplands-roast-t-shirt-green">
+			<div class="standard-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text-smaller">Green T-Shirt</p>
+
+			</div>
+
+			<div class="custom-packaging-picture custom-tshirt-background">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="standard-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text">£20.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-text-details-container">
+				
+				<p class="custom-long-description">Our new T-shirts from Vietnam featuring a classic Uplands Roast illustration.</p>
+
+
+			</div>
+
+			<button class="standard-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+
+		
+
+
+          
+          
+          <!-- Slip Mats -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/uplands-roast-slip-mats">
+			<div class="standard-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text-smaller">Vinyl Slip Mats</p>
+
+			</div>
+
+			<div class="custom-packaging-picture custom-slipmat-background">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="standard-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text">£25.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-text-details-container">
+				
+				<p class="custom-long-description">Keep your records happy with these limited edition Uplands Roast slip mats.</p>
+
+
+			</div>
+
+			<button class="standard-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+
+
+
+
+          
+          		<!-- Selection Box -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/vietnamese-phin">
+			<div class="standard-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text-smaller">Vietnamese Phin</p>
+
+			</div>
+
+			<div class="custom-packaging-picture custom-phin-background">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="standard-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text">£5.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-text-details-container">
+				
+				<p class="custom-long-description">Brew coffee in the traditional Vietnamese style with the Uplands Roast phin (coffee filter). Ideal for simple, lightweight camping.</p>
+
+
+			</div>
+
+			<button class="standard-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+
+
+
+		<!-- Selection Box -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/gift-subscription">
+			<div class="standard-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text-smaller">12 Month Subscription Gift</p>
+
+			</div>
+
+			<div class="custom-packaging-picture custom-twelve-background">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="standard-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text"><span class="custom-from-text">from </span>£94.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-text-details-container">
+				
+				<p class="custom-long-description">Treat your friends or yourself to an annual supply of Uplands Roast Vietnamese coffee delivered every month.</p>
+
+
+			</div>
+
+			<button class="standard-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+
+
+		<!-- Coffee Plan -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/coffee-subscription">
+			<div class="standard-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text-smaller">Coffee Subscription</p>
+
+			</div>
+
+			<div class="custom-packaging-picture custom-subscription-background">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="standard-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text"><span class="custom-from-text">from </span>£7.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-text-details-container">
+				
+				<p class="custom-long-description">Get your favourite Vietnamese coffee delivered to you every month.</p>
+
+
+			</div>
+
+			<button class="standard-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+
+
+
+
+
+		<!-- #3 Line of three -->
+          
+         
+
+			
+
+			
+
+		
+			
+
+			<!-- Christmas Gift Pack -->
+
+		
+
+
+
+		<!-- Coffee Plan -->
+
+		<div class="custom-product-tile">
+			<a class="custom-product-shop-link" href="/shop/gift-card">
+			<div class="standard-background-color custom-tile-header-container">
+				
+				<p class="custom-tile-header-text-smaller">Gift Card</p>
+
+			</div>
+
+			<div class="custom-packaging-picture custom-giftcard-background">
+				
+				<div class="custom-pricing-wrapper">
+					
+					<div class="standard-background-color custom-pricing-bubble">
+
+						<p class="custom-pricing-text"><span class="custom-from-text">from </span>£20.00</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="custom-text-details-container">
+				
+				<p class="custom-long-description">Treat your friends to the magic of Vietnamese coffee with an Uplands Roast gift card. Redeemable online or in-store.</p>
+
+
+			</div>
+
+			<button class="standard-background-color custom-see-in-shop-button">
+				More Details
+			</button>
+          </a>
+		</div>
+
+		</div>
+
+
+
+	</div>

@@ -1,0 +1,617 @@
+<style type="text/css">
+		
+
+		.custom-story-page-info-grid-outer-wrapper {
+			display: flex;
+			flex-direction: column;
+			width: 100vw;
+		}
+
+
+
+		.custom-story-page-info-grid-container {
+			height: 35em;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
+
+		.custom-story-page-info-text-container {
+			height: 100%;
+			width: 50%;
+			background-color: #f2f1ea;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+          	background-image: url('https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5faadfd97cd02d49c539cd53/1605033954953/header_background.png');
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+  	background-blend-mode: screen;
+  	
+
+		}
+
+
+		.custom-story-page-info-inner-wrapper {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			width: 80%;
+		}
+
+		.custom-story-page-blog-feature-container {
+			height: 100%;
+			width: 50%;
+			background-position: bottom; /* Center the image */
+		  	background-repeat: no-repeat; /* Do not repeat the image */
+		  	background-size: cover; /* Resize the background image to cover the entire container */
+		  	display: flex;
+          	justify-content: center;
+		  	cursor: pointer;
+		}
+
+
+		.custom-story-direct-trade-background {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5faba2675ae8b92bcf6222b2/1605083764846/coffee_box_dark_overlay.png");
+		}
+
+		.custom-story-our-community-background {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbeb3339b1ed03538ba4f05/1606333236503/milk_men.png");
+		}
+
+		.custom-story-farming-background {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fa927d31cc23f3fa88c6c80/1604921302714/son_pacamara.png");
+		}
+
+		.custom-story-roasting-background {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbd08f78bc8713fe6ff5d53/1606224144836/roaster_mountain.png");
+		}
+
+		.custom-story-coffee-box-background {
+			background-image: url("https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fbec61461e25426e11cbbd1/1606338105407/decks-min.png");
+		}
+
+		.custom-story-post-details-container {
+			display: flex;
+			align-self: flex-end;
+			flex-direction: column;
+			margin: 2em !important;
+			width: 90%;
+   
+		}
+
+		.custom-story-white-line-divider-homepage-post {
+			height: 2px;
+			width: 30%;
+			margin: 1em 0;
+			background-color: #eae7dc;
+		}
+
+		.custom-story-post-title {
+			color: #eae7dc;
+			font-family: Montserrat-Medium;
+			letter-spacing: .1em;
+			font-size: 2.25em;
+			text-shadow: 4px 4px 12px black;
+          	line-height: 1.25em;
+		}
+
+
+		.custom-story-post-category {
+			color: #eae7dc;
+			text-shadow: 4px 4px 12px black;
+			font-family: Montserrat-Thin;
+			letter-spacing: .1em;
+			font-size: 2em;
+
+		}
+
+
+		.custom-story-page-info-title-illustration-container {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.custom-story-page-info-title {
+			font-family: Montserrat-Thin;
+			letter-spacing: .1em;
+			font-size: 2.5em;
+          	line-height: 1.25em;
+			color: #808080;
+		}
+
+		.custom-story-info-illustration {
+
+			height: 3em;
+
+		}
+  
+  
+  .custom-find-more-link {
+  	display: flex;
+    height: 100%;
+    width: fit-content;
+   	align-items: center;
+    
+  }
+
+
+		.custom-story-page-info-dividing-line {
+			height: 2px;
+			width: 60%;
+			margin: 1em 0;
+			background-color: #808080;
+		}
+
+		.custom-story-page-info-text {
+			padding-top: 1em;
+			font-size: 1.15em;
+          	line-height: 1.5em;
+			font-family: Montserrat-Thin;
+          	color: black;
+		}
+
+		.custom-story-more-button {
+			margin-top: 15%;
+		}
+
+
+		.custom-story-page-grid-reverse {
+			flex-direction: row-reverse;
+		}
+
+
+
+		@media (max-width: 1300px) {
+          
+
+	    	.custom-story-page-info-text {
+	    		font-size: 1.05em;
+	    	}
+
+    	}
+
+
+    	@media (max-width: 1200px) {
+          
+
+	    	.custom-story-page-info-grid-container {
+	    		height: 33em;
+	    	}
+          
+          .custom-story-page-info-title {
+          		font-size: 2em;
+          }
+
+	    	.custom-story-page-info-text {
+	    		font-size: 1em;
+	    		line-height: 1.5em;
+	    	}
+
+	    	.custom-story-post-category, .custom-story-post-title {
+	    		font-size: 1.35em;
+	    	}
+
+	    	.custom-story-info-illustration {
+	    		height: 2.5em;
+	    	}
+
+    	}
+
+
+
+    	@media (max-width: 1000px) {
+
+    		.custom-story-page-info-title {
+    			font-size: 1.75em;
+    		}
+
+
+    		.custom-story-post-details-container {
+    			margin: 1em !important;
+    		}
+          
+
+	    	.custom-story-page-info-grid-container {
+	    		height: 28em;
+	    	}
+
+	    	.custom-story-page-info-text {
+	    		font-size: .8em;
+	    	}
+
+	    	.custom-story-post-category, .custom-story-post-title {
+	    		font-size: 1.25em;
+	    	}
+
+	    	.custom-story-info-illustration {
+	    		height: 2em;
+	    	}
+
+
+	    	.custom-story-more-button {
+	    		margin-top: 10%;
+	    	}
+
+
+	    	.custom-button {
+	    		font-size: 1em;
+	    	}
+
+    	}
+
+
+    	@media (max-width: 850px) {
+
+    		.custom-story-page-info-title {
+    			font-size: 1.75em;
+    		}
+
+
+    		.custom-story-post-details-container {
+    			margin: 1em !important;
+    		}
+          
+
+	    	
+
+	    	.custom-story-page-info-text {
+	    		font-size: .75em;
+	    	}
+
+	    	.custom-button {
+	    		font-size: .85em;
+	    	}
+
+    	}
+
+
+
+    	@media (max-width: 800px) {
+
+
+    		.custom-story-page-info-grid-outer-wrapper {
+              	width: 100vw;
+    			align-items: center;
+    			background-color: #fff;
+    		}
+
+    		.custom-story-page-info-grid-container {
+    			flex-direction: column;
+    			align-items: center;
+    			justify-content: center;
+    			width: 70vw;
+    			height: 100vh;
+    			box-shadow: 2px 2px 20px grey;
+    		}
+
+
+    		.custom-story-page-info-text-container, .custom-story-page-blog-feature-container {
+    			width: 100%;
+    		}
+          
+          .custom-story-page-info-text-container {
+          		background-color: #f2f1ea;
+          }
+
+    	}
+
+
+    	@media (max-width: 600px) {
+
+
+    		.custom-story-page-info-grid-container {
+    			width: 100vw;
+    		}
+          
+          	.custom-story-page-info-text-container {
+          		background-color: #f2f1ea;
+          }
+
+    		.custom-story-post-details-container {
+    			margin: 2em !important;
+    		}
+
+    	}
+
+
+    	@media (max-width: 450px) {
+
+			
+            .custom-story-info-illustration {
+
+              height: 1.5em;
+
+          }
+    		.custom-story-page-info-grid-container {
+    			width: 100vw;
+    		}
+          
+          .custom-story-page-info-title {
+    			font-size: 1.5em;
+    		}
+
+    		.custom-story-post-details-container {
+    			margin: 1em !important;
+    		}
+          
+          
+          	.custom-story-page-info-text {
+	    		font-size: .6em;
+	    	}
+
+	    	.custom-button {
+	    		font-size: .75em;
+	    	}
+          
+          
+
+    	}
+
+
+
+	</style>
+
+
+	<div class="custom-story-page-info-grid-outer-wrapper">
+		
+
+
+		<div id="direct-trade" class="custom-story-page-info-grid-container">
+			
+			<div class="custom-story-page-info-text-container">
+
+				<div class="custom-story-page-info-inner-wrapper">
+					
+					<div class="custom-story-page-info-title-illustration-container">
+
+						<p class="custom-story-page-info-title">Direct Trade</p>
+
+						<img class="custom-story-info-illustration" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fab99052158c42cdf84b90f/1605081349784/up_down_arrows.png">
+
+					</div>
+
+					<div class="custom-story-page-info-dividing-line"></div>
+
+
+					<p class="custom-story-page-info-text">Creating honest trading relationships is the foundation of our business. By working directly with the farmers we can all enjoy ourselves and openly discuss price, quality and goals. We also shorten the supply chain which allows us to pay the farmer a higher price for their product. 
+<br> <br>
+Paying well over the market price for coffee was a key motivation to set up the business, highlighting deceit from the virtue signalling industry powerhouses and trying to support a movement for genuine honesty.</p>
+
+
+                  <a class="custom-find-more-link custom-story-more-button" href="/the-uplands-roast-journal/category/Thoughts"><button class="custom-button">Find Out More</button></a>
+
+				</div>
+
+
+			</div>
+
+
+			<div class="custom-story-page-blog-feature-container custom-story-direct-trade-background">
+
+
+				<div class="custom-story-post-details-container">
+
+					<p class="custom-story-post-category">Thoughts</p>
+
+					<div class="custom-story-white-line-divider-homepage-post"></div>
+
+					<p class="custom-story-post-title">Fairtrade: Is It Really Fair? (Coming Soon)</p>
+					
+				</div>
+				
+
+			</div>
+
+		</div>
+
+
+		<!-- SECOND GRID ITEM -->
+
+
+		<div id="our-community" class="custom-story-page-info-grid-container custom-story-page-grid-reverse">
+			
+			<div class="custom-story-page-info-text-container">
+
+				<div class="custom-story-page-info-inner-wrapper">
+					
+					<div class="custom-story-page-info-title-illustration-container">
+
+						<p class="custom-story-page-info-title">Our Community</p>
+
+						<img class="custom-story-info-illustration" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fab9dddac99946fb7bb9b66/1605082589881/community.png">
+
+					</div>
+
+					<div class="custom-story-page-info-dividing-line"></div>
+
+
+					<p class="custom-story-page-info-text">We are passionate about sourcing top quality ingredients and take great care to find producers that share the same values as us. Our supply chain is full of amazing makers that work hard to create delicious and sustainable products. We don’t mind paying that bit extra so that we don’t have to comprimise on these values.<br> <br>
+Talking to the community and our customers on the front-line is of real value to us. Everyone has something to teach and being able to speak freely and learn is of utmost importance to us.</p>
+
+
+                  <a class="custom-find-more-link custom-story-more-button" href="/the-uplands-roast-journal/category/Thoughts"> <button class="custom-button ">Find Out More</button></a>
+
+				</div>
+
+
+			</div>
+
+
+			<div class="custom-story-page-blog-feature-container custom-story-our-community-background">
+				<a class="custom-find-more-link" href="/the-uplands-roast-journal/2020/11/25/organic-milk-why-kedar-is-just-outstanding">
+		
+				<div class="custom-story-post-details-container">
+
+					<p class="custom-story-post-category">Thoughts</p>
+
+					<div class="custom-story-white-line-divider-homepage-post"></div>
+
+					<p class="custom-story-post-title">Organic Milk: Why 'Kedar' is Just Outstanding</p>
+					
+				</div>
+				
+              </a>
+			</div>
+
+		</div>
+
+
+		<!-- THIRD GRID ITEM -->
+
+
+
+		<div id="farming" class="custom-story-page-info-grid-container">
+			
+			<div class="custom-story-page-info-text-container">
+
+				<div class="custom-story-page-info-inner-wrapper">
+					
+					<div class="custom-story-page-info-title-illustration-container">
+
+						<p class="custom-story-page-info-title">Farming</p>
+
+						<img class="custom-story-info-illustration" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5fab9ed0dfe3433030524ec9/1605082832852/farming.png">
+
+					</div>
+
+					<div class="custom-story-page-info-dividing-line"></div>
+
+
+					<p class="custom-story-page-info-text">Working directly with farmers in Vietnam is truly amazing and sharing the knowledge and skills they have is inspiring. How these farmers have grown their craft and work with care and precision within the confines of - sometimes - basic tools is rather extraordinary. <br> <br> We believe in creating fruitful and sustainable relationships with the farmers that we trade with. This means visiting the farms when we can, paying them a price they are happy with and taking on board their expert knowledge.</p>
+
+
+                  <a class="custom-find-more-link custom-story-more-button" href="/the-uplands-roast-journal/category/Farming"> <button class="custom-button ">Find Out More</button></a>
+
+				</div>
+
+
+			</div>
+
+
+			<div class="custom-story-page-blog-feature-container custom-story-farming-background">
+              
+              <a class="custom-find-more-link" href="/the-uplands-roast-journal/2020/11/18/meet-son-nguyen-van-the-farmer-who-helped-us-find-our-path">
+
+
+				<div class="custom-story-post-details-container">
+
+					<p class="custom-story-post-category">Farming</p>
+
+					<div class="custom-story-white-line-divider-homepage-post"></div>
+
+					<p class="custom-story-post-title">Meet Son Pacamara: The Farmer Who Helped Us Find Our Path</p>
+					
+				</div>
+				
+              </a>
+			</div>
+
+		</div>
+
+
+
+		<!-- FOURTH GRID ITEM -->
+
+		<div id="roasting" class="custom-story-page-info-grid-container custom-story-page-grid-reverse">
+			
+			<div class="custom-story-page-info-text-container">
+
+				<div class="custom-story-page-info-inner-wrapper">
+					
+					<div class="custom-story-page-info-title-illustration-container">
+
+						<p class="custom-story-page-info-title">Roasting</p>
+
+						<img class="custom-story-info-illustration" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5faba0d995f07440fe179583/1605083353850/fire.png">
+
+					</div>
+
+					<div class="custom-story-page-info-dividing-line"></div>
+
+
+					<p class="custom-story-page-info-text">We roast coffee every day on The Meadows in Edinburgh. It is lovely to be able to share this experience with our customers as they watch us do this in the open air. Finding the perfect roast for our beans is an ongoing journey and we are forever learning of new subtleties as we go. <br> <br> Roasting is both a science and an art and there is no ‘right’ answer. Though by feeling our way through and relying upon taste, measurement, intuition and practice we are forever improving our knowledge. </p>
+
+
+                  <a class="custom-find-more-link custom-story-more-button" href="/the-uplands-roast-journal/category/Roasting"><button class="custom-button ">Find Out More</button></a>
+
+				</div>
+
+
+			</div>
+
+
+			<div class="custom-story-page-blog-feature-container custom-story-roasting-background">
+		
+              <a class="custom-find-more-link" href="/the-uplands-roast-journal/2020/11/23/roasting-the-method-in-our-magic">
+
+				<div class="custom-story-post-details-container">
+
+					<p class="custom-story-post-category">Roasting</p>
+
+					<div class="custom-story-white-line-divider-homepage-post"></div>
+
+					<p class="custom-story-post-title">Pua Roasta: The Method in Our Magic</p>
+					
+				</div>
+				
+              </a>
+			</div>
+
+		</div>
+
+
+		<!-- FIFTH GRID ITEM -->
+
+
+		<div id="coffee-box" class="custom-story-page-info-grid-container">
+			
+			<div class="custom-story-page-info-text-container">
+
+				<div class="custom-story-page-info-inner-wrapper">
+					
+					<div class="custom-story-page-info-title-illustration-container">
+
+						<p class="custom-story-page-info-title">The Coffee Box</p>
+
+						<img class="custom-story-info-illustration" src="https://static1.squarespace.com/static/5ac787549d5abbb40a73ca08/t/5faba1e78703fd2eaa1e6ea0/1605083623918/one_musical_note.png">
+
+					</div>
+
+					<div class="custom-story-page-info-dividing-line"></div>
+
+
+					<p class="custom-story-page-info-text">Situated in the heart of Edinburgh, our Meadows coffee shop has become a hub for folk in the community and those just passing through. We are proud to roast beans fresh on-site and always try to brighten people’s day by playing tunes, having a chat and serving drinks as best we can. <br> <br>
+If you are ever in town, be sure to stop by for a coffee, chat or just a wee dance.</p>
+
+
+                  <a class="custom-find-more-link custom-story-more-button" href="/the-uplands-roast-journal/category/News"><button class="custom-button ">Find Out More</button></a>
+
+				</div>
+
+
+			</div>
+
+
+			<div class="custom-story-page-blog-feature-container custom-story-coffee-box-background">
+              <a class="custom-find-more-link" href="/the-uplands-roast-journal/2020/11/19/november-2020-lock-up-playlist">
+
+
+				<div class="custom-story-post-details-container">
+
+					<p class="custom-story-post-category">Music</p>
+
+					<div class="custom-story-white-line-divider-homepage-post"></div>
+
+					<p class="custom-story-post-title">Lock Up: November 2020 Playlist</p>
+					
+				</div>
+				
+              </a>
+			</div>
+
+		</div>
+
+	</div>
